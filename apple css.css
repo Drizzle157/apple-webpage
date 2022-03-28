@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    transition: ease-in 1s;
+    background-color: black;
+    background-position: center;
+    background-size: 90%;
+    position: relative;
+    
+}
+nav{
+    height: 0.5mm;
+    display: flex;
+    padding: 2% 6%;
+    transition: ease-in 0.5s;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+nav img{
+    width: 23px;
+    margin: 50px;
+    
+    
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 40px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.line{
+    transition: ease-in 2s;
+    background-color:dimgrey;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    margin-top: 0.5px;
+    
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+         
+}
+.text-box p1{
+    transition: ease-in 2s;
+    font-size: 50px;
+    text-align: right;
+    position: fixed;
+    bottom: 230px;
+    left: 800px;
+}
+.text-box p{
+    transition: ease-in 2s;
+    font-size: 15px;
+    text-align:left;
+    position: relative;
+    top: 140px;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    transition: 1s;
+    margin-top: 180px;
+    margin-right: 85%;
+    color: white;
+    border: 1px solid cyan;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    background: darkcyan;
+    transition: 1s;
+}
+.Mac{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+       
+    text-align: center;
+    padding-top: 1000px;
+}
+.Mac h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+.Mac p{
+    color:cyan;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
